@@ -3,7 +3,7 @@ from cart import cart_total
 
 
 def test_cart_total_simple():
-    assert cart_total([100, 50]) == 999
+    assert cart_total([100, 50]) == 150
 
 
 def test_cart_total_empty():
